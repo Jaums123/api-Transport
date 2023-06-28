@@ -62,7 +62,11 @@ app.patch("/update/:id",(req,res)=>{
      }
   })
 })
-
+app.get("/",(req,res)=>{
+    res.json({
+        message:'Api est en ligne'
+    })
+})
 /////SUPPRIMER TOUTE LA LISTE 
 app.delete("/delete/:id",(req,res,next)=>{
       const id= req.params.id
