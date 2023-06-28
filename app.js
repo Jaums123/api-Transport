@@ -64,7 +64,7 @@ app.patch("/update/:id",(req,res)=>{
 })
 app.get("/",(req,res)=>{
     res.json({
-        message:'Api est en ligne'
+        message:'Api est en lignes'
     })
 })
 /////SUPPRIMER TOUTE LA LISTE 
